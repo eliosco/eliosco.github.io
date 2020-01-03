@@ -1,18 +1,14 @@
+
 <!doctype HTML>
 <html>
 <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
 <script src="https://raw.githack.com/jeromeetienne/AR.js/2.1.4/aframe/build/aframe-ar.js"></script>
   <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs>
-      <!-- define your gltf asset -->
-
-      
       <a-marker type="pattern" preset="custom" url="https://github.com/eliosco/eliosco.github.io/blob/master/box/marker/pattern-logoStarkMarker.patt">
-
-        <a-box position='0 0.5 0' material='opacity: 0.5;' color="yellow"></a-box>
+          <a-box position='0 0.5 0' material='color: yellow;'></a-box>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
   </body>
 </html>
-
