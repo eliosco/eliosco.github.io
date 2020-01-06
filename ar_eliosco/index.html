@@ -1,11 +1,12 @@
 <!-- BEGIN: Top HTML -->
 <!DOCTYPE html>
 <!-- include aframe -->
-<script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
-<script src="https://raw.githack.com/jeromeetienne/AR.js/2.1.4/aframe/build/aframe-ar.js"></script>
+<script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+<!-- include ar.js -->
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.7.2/aframe/build/aframe-ar.js"></script>
 
 <!-- to load .ply model -->
-<script src="https://rawgit.com/donmccurdy/aframe-extras/v6.0.1/dist/aframe-extras.loaders.min.js"></script>
+<script src="https://rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.loaders.min.js"></script>
 
 <!-- END: Top HTML -->
 <!-- BEGIN: Unity Compiled Events -->
@@ -115,11 +116,11 @@ function bezierEvaluate(p0, p1, p2, p3, t) {
 
 <!-- BEGIN: Unity Compiled Assets -->
 <a-assets>
-<video id="Video_Asset_0" autoplay="false" loop crossorigin="anonymous" url="https://github.com/eliosco/eliosco.github.io/blob/master/ar_eliosco/videos/y2mate.com%20-%20showreel_stark_1200_2016_kJOupCdRhHo_360p.mp4" webkit-playsinline playsinline controls muted></video>
+<video id="Video_Asset_0" autoplay="false" loop crossorigin="anonymous" src="videos/y2mate.com - showreel_stark_1200_2016_kJOupCdRhHo_360p.mp4" webkit-playsinline playsinline controls muted></video>
 </a-assets>
 <!-- END: Unity Compiled Assets -->
 <!-- BEGIN: Add Image Target (marker) -->
-<a-marker id="marker" type="pattern" preset="custom" url="https://github.com/eliosco/eliosco.github.io/blob/master/ar_eliosco/pattern-stark.patt" emitevents="true" button>
+<a-marker id="marker" type="pattern" preset="custom" src="pattern-pattern-UnityLogoARjs-copy.patt" url="pattern-pattern-UnityLogoARjs-copy.patt" emitevents="true" button>
 <!-- END: Add Image Target (marker) -->
 
 <!-- BEGIN: Unity Compiled Objects -->
